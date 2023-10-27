@@ -1,0 +1,78 @@
+body {
+    background-color: #6ce6b7;
+    overflow: hidden;
+}
+
+.menu {
+    position: absolute;
+    width: 53%;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%) translateY(-15%);
+}
+
+#input {
+    position: absolute;
+    height: 60px;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 25px;
+    border: none;
+    padding-left: 5%;
+    padding-right: 15%;
+    font-size: 23px;
+    outline: none;
+    margin: 0 auto;
+}
+
+#input:active {
+    border: none;
+}
+
+#tasks {
+    padding: 15px;
+    position: absolute;
+    height: 450px;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 25px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    overflow: auto;
+}
+
+.fa-add {
+    position: absolute;
+    scale: 2;
+    left: 97%;
+    transform: translate(-97%, 70%);
+}
+
+.label {
+    font-family: 'Raleway';
+    font-size: 1.2em;
+}
+
+#to {
+    position: absolute;
+    font-family: 'Raleway';
+    color: #86eec6;
+    font-size: 30em;
+    font-weight: 800;
+    top: 70%;
+    left: 10%;
+    transform: translate(-40%, -95%);
+}
+
+#do {
+    position: absolute;
+    font-family: 'Raleway';
+    color: #86eec6;
+    font-size: 30em;
+    font-weight: 800;
+    top: 70%;
+    left: 90%;
+    transform: translate(-60%, -95%);
+}
